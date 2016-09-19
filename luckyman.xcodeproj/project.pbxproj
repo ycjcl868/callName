@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6547D2731D87C6D90001DB58 /* xinxin.png in Resources */ = {isa = PBXBuildFile; fileRef = 6547D2721D87C6D90001DB58 /* xinxin.png */; };
 		65FCDC121D855D5C001AF067 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FCDC111D855D5C001AF067 /* main.m */; };
 		65FCDC151D855D5C001AF067 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FCDC141D855D5C001AF067 /* AppDelegate.m */; };
 		65FCDC181D855D5C001AF067 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FCDC171D855D5C001AF067 /* ViewController.m */; };
@@ -35,7 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		65FCDC0D1D855D5C001AF067 /* luckyman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = luckyman.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6547D2721D87C6D90001DB58 /* xinxin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = xinxin.png; path = ../../../Pictures/Myself/xinxin.png; sourceTree = "<group>"; };
+		65FCDC0D1D855D5C001AF067 /* 点名器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "点名器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65FCDC111D855D5C001AF067 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		65FCDC131D855D5C001AF067 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		65FCDC141D855D5C001AF067 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 		65FCDC041D855D5C001AF067 = {
 			isa = PBXGroup;
 			children = (
+				6547D2721D87C6D90001DB58 /* xinxin.png */,
 				65FCDC0F1D855D5C001AF067 /* luckyman */,
 				65FCDC291D855D5C001AF067 /* luckymanTests */,
 				65FCDC341D855D5C001AF067 /* luckymanUITests */,
@@ -91,7 +94,7 @@
 		65FCDC0E1D855D5C001AF067 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				65FCDC0D1D855D5C001AF067 /* luckyman.app */,
+				65FCDC0D1D855D5C001AF067 /* 点名器.app */,
 				65FCDC261D855D5C001AF067 /* luckymanTests.xctest */,
 				65FCDC311D855D5C001AF067 /* luckymanUITests.xctest */,
 			);
@@ -157,7 +160,7 @@
 			);
 			name = luckyman;
 			productName = luckyman;
-			productReference = 65FCDC0D1D855D5C001AF067 /* luckyman.app */;
+			productReference = 65FCDC0D1D855D5C001AF067 /* 点名器.app */;
 			productType = "com.apple.product-type.application";
 		};
 		65FCDC251D855D5C001AF067 /* luckymanTests */ = {
@@ -207,6 +210,7 @@
 				TargetAttributes = {
 					65FCDC0C1D855D5C001AF067 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 57EP4P69NV;
 					};
 					65FCDC251D855D5C001AF067 = {
 						CreatedOnToolsVersion = 7.3;
@@ -246,6 +250,7 @@
 				65FCDC201D855D5C001AF067 /* LaunchScreen.storyboard in Resources */,
 				65FCDC1D1D855D5C001AF067 /* Assets.xcassets in Resources */,
 				65FCDC1B1D855D5C001AF067 /* Main.storyboard in Resources */,
+				6547D2731D87C6D90001DB58 /* xinxin.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,22 +419,22 @@
 		65FCDC3B1D855D5C001AF067 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = luckyman/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jcl.luckyman;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "点名器";
 			};
 			name = Debug;
 		};
 		65FCDC3C1D855D5C001AF067 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = luckyman/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jcl.luckyman;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "点名器";
 			};
 			name = Release;
 		};
@@ -498,6 +503,7 @@
 				65FCDC3C1D855D5C001AF067 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65FCDC3D1D855D5C001AF067 /* Build configuration list for PBXNativeTarget "luckymanTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +512,7 @@
 				65FCDC3F1D855D5C001AF067 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65FCDC401D855D5C001AF067 /* Build configuration list for PBXNativeTarget "luckymanUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +521,7 @@
 				65FCDC421D855D5C001AF067 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
